@@ -1,5 +1,6 @@
 body{
-	margin:0
+	margin:0;
+	color: #f7fff7;
 }
 
 
@@ -13,13 +14,25 @@ section {
   height:calc(90% - 50px);
 }
 
+.img-circle.img-thumbnail {
+	background-color: #f7fff7;
+}
 
+#navbar > ul > li > a{
+	color: #f7fff7;
+    background-color: #773344;
+}
 .navbar.navbar-inverse.navbar-fixed-top {
 	color: #f7fff7;
-    background-color: #4ecdc4;
+    background-color: #773344;
 	border-color: #f7fff7;
 }
 
+.navbar-inverse .navbar-nav > .active > a {
+	color: #f7fff7;
+    background-color: #1a535c;
+	border-color: #f7fff7;
+} 
 
 .affix {
   padding:0px;
