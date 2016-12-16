@@ -21,7 +21,7 @@ section {
 
 .btn.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #ffffff;
-    background-color: #773344;
+    background-color: #692847;
     border-color: #ffffff; /*set the color you want here*/
 }
 
@@ -31,11 +31,11 @@ section {
 
 #navbar > ul > li > a{
 	color: #ffffff;
-    background-color: #773344;
+    background-color: #692847;
 }
 .navbar.navbar-inverse.navbar-fixed-top {
 	color: #ffffff;
-    background-color: #773344;
+    background-color: #692847;
 	border-color: #ffffff;
 }
 
