@@ -84,3 +84,28 @@ section {
 .stylish-panel > div:hover img {
     border-radius: 50%;
 }
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  text-align: center;
+}
+
+.footer{
+  margin-top: 50px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.fa {
+    opacity: 0.7;
+    transition: 1s;
+    -webkit-transition: 1s;
+	color: #1a535c;
+}
+
+.fa:hover{
+    opacity: 1;
+    transition: 1s;
+    -webkit-transition: 1s;
