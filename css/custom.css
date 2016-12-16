@@ -14,24 +14,35 @@ section {
   height:calc(90% - 50px);
 }
 
+.btn.btn-primary {
+	background-color: transparent;
+	border-color: #ffffff;
+}
+
+.btn.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #ffffff;
+    background-color: #773344;
+    border-color: #ffffff; /*set the color you want here*/
+}
+
 .img-circle.img-thumbnail {
-	background-color: #f7fff7;
+	background-color: #ffffff;
 }
 
 #navbar > ul > li > a{
-	color: #f7fff7;
+	color: #ffffff;
     background-color: #773344;
 }
 .navbar.navbar-inverse.navbar-fixed-top {
-	color: #f7fff7;
+	color: #ffffff;
     background-color: #773344;
-	border-color: #f7fff7;
+	border-color: #ffffff;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	color: #f7fff7;
+	color: #ffffff;
     background-color: #1a535c;
-	border-color: #f7fff7;
+	border-color: #ffffff;
 } 
 
 .affix {
