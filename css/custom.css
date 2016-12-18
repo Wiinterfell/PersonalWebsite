@@ -22,7 +22,7 @@ section {
 .btn.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #ffffff;
     background-color: #692847;
-    border-color: #ffffff; /*set the color you want here*/
+    border-color: #ffffff;
 }
 
 .img-circle.img-thumbnail {
@@ -93,6 +93,11 @@ section {
   margin-top: 50px;
   width: 100%;
   margin-bottom: 10px;
+}
+
+#round {
+	color: #ffffff;
+	 opacity: 1.0;
 }
 
 .fa {
@@ -187,7 +192,7 @@ section {
             }
 
         .timeline > li > .timeline-badge {
-            color: #fff;
+            color: #ffffff;
             width: 50px;
             height: 50px;
             line-height: 50px;
@@ -197,7 +202,7 @@ section {
             top: 16px;
             left: 50%;
             margin-left: -25px;
-            background-color: #999999;
+            background-color: #32A0B2;
             z-index: 100;
             border-top-right-radius: 50%;
             border-top-left-radius: 50%;
