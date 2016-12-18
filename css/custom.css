@@ -1,6 +1,6 @@
 body{
 	margin:0;
-	color: #f7fff7;
+	color: #ffffff;
 }
 
 
@@ -90,9 +90,6 @@ section {
   width: 100%;
   background-color: transparent;
   text-align: center;
-}
-
-.footer{
   margin-top: 50px;
   width: 100%;
   margin-bottom: 10px;
@@ -102,7 +99,7 @@ section {
     opacity: 0.7;
     transition: 1s;
     -webkit-transition: 1s;
-	color: #1a535c;
+	color: #32A0B2;
 }
 
 .fa:hover{
