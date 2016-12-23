@@ -27,7 +27,6 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			  </button>
-			  <a class="navbar-brand" href="#"><img class="img-responsive logo" src="img/sophie.png" alt="" style="height:18vh;"></a>
 			</div>
 			<div id="navbar" class="collapse navbar-collapse">
 			  <ul class="nav navbar-nav navbar-right">
@@ -93,17 +92,33 @@
         <img class="img-responsive" src="img/gallery/ship.jpg" alt="Noirmoutier" data-toggle="modal" data-target="#myModal">
       </div>
     </div>
+	    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <img class="img-responsive" src="img/gallery/flower.jpg" alt="Château de la Loire" data-toggle="modal" data-target="#myModal">
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <img class="img-responsive" src="img/gallery/lions.jpg" alt="Félins" data-toggle="modal" data-target="#myModal">
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <img class="img-responsive" src="img/gallery/lights.jpg" alt="Church" data-toggle="modal" data-target="#myModal">
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <img class="img-responsive" src="img/gallery/crying.jpg" alt="Château de la Loire" data-toggle="modal" data-target="#myModal">
+      </div>
+    </div>
   </div>
   <!-- Modal -->
   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-          <h4 class="modal-title" id="myModalLabel">Im the awesome cat!</h4>
-        </div>
         <div class="modal-body">
-          <img class="img-responsive" src="http://lorempixel.com/600/400/cats/?42" alt="The awesome description">
+          <img class="img-responsive" id="window" src="">
         </div>
       </div>
     </div>
@@ -138,5 +153,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+	<script>
+	$(document).ready(function () {
+		$('img').on('click', function () {
+			var image = $(this).attr('src');
+			$('#myModal').on('show.bs.modal', function () {
+				$("#window").attr("src", image);
+			});
+		});
+	});
+	</script>
   
 </html>
