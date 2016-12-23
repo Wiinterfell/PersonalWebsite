@@ -48,7 +48,7 @@
         <h1 id="timeline">Photography</h1>
     </div>
 	
-	<h3 id="timeline" style="margin-bottom: 20px">Quick overview</h1>
+	<h3 style="margin-bottom: 20px">Quick overview</h3>
 	
 	<div class="container" >
   <div class="row portfolio">
@@ -124,7 +124,50 @@
     </div>
   </div>
 </div>
-	</div>
+
+	<h3 style="margin-bottom: 20px">Personal Project: Human Clock</h3>
+
+<div class="row">
+    <div class="col-md-6">
+        
+    
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+      
+        <div class="item active">
+          <img src="img/horloge/0000.jpg">
+        </div>
+         <div class="item">
+          <img src="img/horloge/0900.jpg">
+        </div>
+        <div class="item">
+          <img src="img/horloge/1600.jpg">
+        </div>
+        <div class="item">
+          <img src="img/horloge/2200.jpg">
+        </div>
+                
+      </div><!-- End Carousel Inner -->
+
+<div id="#myCarousel" class="carousel slide" data-ride="#myCarousel">
+    	
+  <ul class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ul>
+ </div>           
+
+
+    </div><!-- End Carousel -->
+</div>
+	
+	
+
+</div>
 	
 	<!--plan:
 	Gallery
@@ -161,6 +204,11 @@
 				$("#window").attr("src", image);
 			});
 		});
+	});
+	
+	// Stop carousel
+	$('.carousel').carousel({
+	  interval: 2s;
 	});
 	</script>
   

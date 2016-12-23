@@ -323,3 +323,11 @@ section {
         display:none;
     }
 }
+
+
+
+
+/* Main carousel style */
+.carousel {
+    width: 600px;
+}
