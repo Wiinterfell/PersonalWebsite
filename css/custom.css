@@ -25,6 +25,18 @@ section {
     border-color: #ffffff;
 }
 
+#photo_btn {
+	background-color: transparent;
+	border-color: #692847;
+	color: #692847;
+}
+
+#photo_btn:hover, #photo_btn:focus, #photo_btn:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #ffffff;
+    background-color: #692847;
+    border-color: #ffffff;
+}
+
 .img-circle.img-thumbnail {
 	background-color: #ffffff;
 }
