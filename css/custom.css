@@ -343,3 +343,9 @@ section {
 .carousel {
     width: 600px;
 }
+
+
+.item {
+    width: auto;
+    height: 400px;
+}
