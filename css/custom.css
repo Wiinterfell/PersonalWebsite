@@ -450,3 +450,7 @@ figure.snip1174.hover a {
   transform: translateY(0);
   opacity: 1;
 }
+
+.embed-responsive {
+	z-index:1;
+}
