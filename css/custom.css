@@ -454,3 +454,19 @@ figure.snip1174.hover a {
 .embed-responsive {
 	z-index:1;
 }
+
+
+.pagination>li.active>a {
+  background: #692847;
+  border: 1px solid #692847;
+  color: #fff;
+}
+
+#my-paginator a:focus:not(#disabled),
+#my-paginator a:hover:not(#disabled),
+#my-paginator span:focus:not(#disabled),
+#my-paginator span:hover:not(#disabled) {
+  background: #692847;
+  border: 1px solid #692847;
+  color: #fff;
+}
