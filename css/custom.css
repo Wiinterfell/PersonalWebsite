@@ -19,7 +19,7 @@ section {
 	border-color: #ffffff;
 }
 
-.btn.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+#index-card .btn.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #ffffff;
     background-color: #692847;
     border-color: #ffffff;
@@ -469,4 +469,9 @@ figure.snip1174.hover a {
   background: #692847;
   border: 1px solid #692847;
   color: #fff;
+}
+
+
+#text-link {
+    color: #32A0B2;
 }
