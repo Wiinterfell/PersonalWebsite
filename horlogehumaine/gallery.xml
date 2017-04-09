@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery 
+
+	useFlickr="false"
+	resizeOnImport="true"
+	cropToFit="false"
+	frameColor="FFFFFF"
+	backgroundTransparent="true"
+	showFullscreenButton="true"
+	showOpenButton="false"
+	indexPageName="index.html"
+	frameWidth="20"
+	thumbColumns="3"
+	backgroundColor="FFFFFF"
+
+>
+  <image imageURL="images/Incidanse_20150529_SLEGRAS-001.jpg"
+	thumbURL="thumbs/Incidanse_20150529_SLEGRAS-001.jpg"
+	linkURL="images/Incidanse_20150529_SLEGRAS-001.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_0213 -2.jpg"
+	thumbURL="thumbs/DSC_0213 -2.jpg"
+	linkURL="images/DSC_0213 -2.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_0138 -2.jpg"
+	thumbURL="thumbs/DSC_0138 -2.jpg"
+	linkURL="images/DSC_0138 -2.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_0195 (3) -2.jpg"
+	thumbURL="thumbs/DSC_0195 (3) -2.jpg"
+	linkURL="images/DSC_0195 (3) -2.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_0155 -2.jpg"
+	thumbURL="thumbs/DSC_0155 -2.jpg"
+	linkURL="images/DSC_0155 -2.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_0079 - 2.jpg"
+	thumbURL="thumbs/DSC_0079 - 2.jpg"
+	linkURL="images/DSC_0079 - 2.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_0460 - 2.jpg"
+	thumbURL="thumbs/DSC_0460 - 2.jpg"
+	linkURL="images/DSC_0460 - 2.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_0863 -2.jpg"
+	thumbURL="thumbs/DSC_0863 -2.jpg"
+	linkURL="images/DSC_0863 -2.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Incidanse_20150529_SLEGRAS-026.jpg"
+	thumbURL="thumbs/Incidanse_20150529_SLEGRAS-026.jpg"
+	linkURL="images/Incidanse_20150529_SLEGRAS-026.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_0255 - 2.jpg"
+	thumbURL="thumbs/DSC_0255 - 2.jpg"
+	linkURL="images/DSC_0255 - 2.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_0438 (2) -3.jpg"
+	thumbURL="thumbs/DSC_0438 (2) -3.jpg"
+	linkURL="images/DSC_0438 (2) -3.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_0098 -2.jpg"
+	thumbURL="thumbs/DSC_0098 -2.jpg"
+	linkURL="images/DSC_0098 -2.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_0747 - 2.jpg"
+	thumbURL="thumbs/DSC_0747 - 2.jpg"
+	linkURL="images/DSC_0747 - 2.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Incidanse_20150529_SLEGRAS-022.jpg"
+	thumbURL="thumbs/Incidanse_20150529_SLEGRAS-022.jpg"
+	linkURL="images/Incidanse_20150529_SLEGRAS-022.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_0700 -2.jpg"
+	thumbURL="thumbs/DSC_0700 -2.jpg"
+	linkURL="images/DSC_0700 -2.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_0531 -2.jpg"
+	thumbURL="thumbs/DSC_0531 -2.jpg"
+	linkURL="images/DSC_0531 -2.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSC_0764 - 2.jpg"
+	thumbURL="thumbs/DSC_0764 - 2.jpg"
+	linkURL="images/DSC_0764 - 2.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Incidanse_20150529_SLEGRAS-013.jpg"
+	thumbURL="thumbs/Incidanse_20150529_SLEGRAS-013.jpg"
+	linkURL="images/Incidanse_20150529_SLEGRAS-013.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+</simpleviewergallery>

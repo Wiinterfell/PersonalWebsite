@@ -1,0 +1,296 @@
+body {
+	margin: 0px;
+	padding:0px;
+	background: rgb(0,0,0);	
+}
+	
+#article {
+	width: 60%;
+	margin: 10px auto;
+	font: 14px/1.5 Cambria,serif;
+	text-align: justify;
+}
+
+article {
+	position: relative;
+	margin: 0 0 60px 0;
+	padding: 50px 55px;
+	background-color: white;
+	border: 5px solid #EFEFEF;
+	box-shadow: 2px 2px 2px #B7B7B7;
+	-webkit-box-shadow: 2px 2px 2px #B7B7B7;
+	-moz-box-shadow: 2px 2px 2px #B7B7B7;
+	-o-box-shadow: 2px 2px 2px #B7B7B7;
+}
+
+article .title {
+	margin: 0 0 30px 0;
+	padding: 0 0 25px 0;
+	border-bottom: 1px solid #E7E7E7;
+	font: italic 32px/1.5 Georgia, serif;
+}
+
+/*
+Cette zone, c'est l'affichage de l'horloge
+*/
+#horloge {
+	font-family: 'Open Sans', sans-serif;
+	width: 140px;
+	margin: auto;
+	padding-top : 4px;
+	padding-bottom : 4px;
+	display: block;			
+	font-size: 100%;
+	text-align: center;
+	color: black;
+	background: white;
+	border-radius: 3px;
+}
+
+
+#zoneImage {
+	padding-top: 30%;
+	background-color: black;
+	background: url(image1.jpg) no-repeat;
+	width: 100%;
+	height: 450px;
+	background-size: 100% auto;
+	transition: 2s; 
+	/*La petite transition qui fait office de buffer/backbuffer, 
+	c'est dommage pour l'explication, mais il se trouve que ça marche bien*/
+}
+
+cite
+{
+	text-align: center;
+	color: grey;
+}
+
+#banniere {
+	display: block;
+}
+
+footer {
+	text-align: center;
+}
+
+/* sv-container test*/
+#sv-container {
+	/*position: absolute;
+	margin: 0px;
+	background: rgba(0,0,0,0.7);
+	height: 1040px;*/
+	border-left: 212px solid rgba(200,200,200,0.4);
+
+}
+/*sv-container test end*/
+
+
+/*Johnny new menu*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+#cssmenu {
+	position: absolute;
+	margin: 0px;
+	background: rgba(0,0,0,0.7);
+	height: 1040px;
+	border-left: 6px solid rgba(200,200,200,0.4);
+	border-right: 6px solid rgba(200,200,200,0.4);
+	width: 200px;
+	overflow: hidden;
+	white-space: nowrap;
+	transition: 0.25s;
+	z-index: 100;
+}
+
+#cssmenu:hover {
+	width: 200px;
+}
+#cssmenu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;;
+}
+
+#cssmenu ul:after {
+	content: " ";
+	display: block;
+	font-size: 0;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+#cssmenu ul li {
+	list-style: none;
+	display: block;
+	padding: 0;
+	margin: 10px;
+}
+
+#cssmenu ul li a {
+	color: rgba(255,255,255,0.4);
+	text-decoration: none;
+	display: block;
+	padding: 15px 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 14px;
+	position: relative;
+	-webkit-transition: color .25s;
+	-moz-transition: color .25s;
+	-ms-transition: color .25s;
+	-o-transition: color .25s;
+	transition: all .25s;
+}
+#cssmenu ul li a:hover {
+  	color: #ffffff;
+}
+
+#cssmenu ul li a:before {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #333333;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+}
+
+#cssmenu ul li.active a {
+  color: rgba(255,255,255,0.7);
+}
+
+@media screen and (max-width: 768px) {
+  #cssmenu ul li {
+    float: none;
+    display: block;
+  }
+  #cssmenu ul li a {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fb998c;
+  }
+  #cssmenu ul li.last > a,
+  #cssmenu ul li:last-child > a {
+    border: 0;
+  }
+  #cssmenu ul li a:after {
+    display: none;
+  }
+  #cssmenu ul li a:before {
+    display: none;
+  }
+}
+
+#cssmenu2 {
+	position: absolute;
+	margin: 0px;
+	background: rgba(0,0,0,1);
+	height: 1040px;
+	border-left: 6px solid rgba(200,200,200,0.4);
+	border-right: 6px solid rgba(200,200,200,0.4);
+	width: 200px;
+	overflow: hidden;
+	white-space: nowrap;
+	transition: 0.25s;
+	z-index: 100;
+}
+
+#cssmenu2:hover {
+	width: 200px;
+}
+#cssmenu2 ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;;
+}
+
+#cssmenu2 ul:after {
+	content: " ";
+	display: block;
+	font-size: 0;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+#cssmenu2 ul li {
+	list-style: none;
+	display: block;
+	padding: 0;
+	margin: 10px;
+}
+
+#cssmenu2 ul li a {
+	color: rgba(255,255,255,0.4);
+	text-decoration: none;
+	display: block;
+	padding: 15px 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 14px;
+	position: relative;
+	-webkit-transition: color .25s;
+	-moz-transition: color .25s;
+	-ms-transition: color .25s;
+	-o-transition: color .25s;
+	transition: all .25s;
+}
+#cssmenu2 ul li a:hover {
+  	color: #ffffff;
+}
+
+#cssmenu2 ul li a:before {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #333333;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+}
+
+#cssmenu2 ul li.active a {
+  color: rgba(255,255,255,0.7);
+}
+
+@media screen and (max-width: 768px) {
+  #cssmenu2 ul li {
+    float: none;
+    display: block;
+  }
+  #cssmenu2 ul li a {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fb998c;
+  }
+  #cssmenu2 ul li.last > a,
+  #cssmenu2 ul li:last-child > a {
+    border: 0;
+  }
+  #cssmenu2 ul li a:after {
+    display: none;
+  }
+  #cssmenu2 ul li a:before {
+    display: none;
+  }
+}
+
