@@ -340,19 +340,10 @@ section {
 
 
 /* Main carousel style */
-.carousel {
-    width: 600px;
-}
-
-
 .item {
     width: auto;
-    height: 400px;
+    max-height: 400px;
 }
-
-
-
-
 
 
 
