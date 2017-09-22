@@ -466,22 +466,3 @@ figure.snip1174.hover a {
 #text-link {
     color: #32A0B2;
 }
-
-
-form *, form *:after, form *:before{
-box-sizing:border-box;
-}
-form > div:first-child{
-display:inline-block;
-width:75%;
-float:left;
-}
-.hs_email{ 
-width:100%;
-display:inline-block;
-}
-.hs_submit{
-width:25%;
-float:left;
-margin-top:16px;
-}
