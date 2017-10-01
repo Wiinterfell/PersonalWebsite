@@ -466,3 +466,11 @@ figure.snip1174.hover a {
 #text-link {
     color: #32A0B2;
 }
+
+
+div.writing-paragraphs p {
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
