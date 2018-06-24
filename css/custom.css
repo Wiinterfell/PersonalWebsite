@@ -474,3 +474,7 @@ div.writing-paragraphs p {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+#social-shares {
+  visibility: hidden
+}
