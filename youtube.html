@@ -13,12 +13,6 @@
 
     <link rel="icon" type="image/png" href="img/fav.png">
 
-    <script>
-        if(window.location.protocol != 'https:') {
-      location.href = location.href.replace("http://", "https://");
-    }
-    </script>
-
 </head>
 
 <body>
@@ -64,11 +58,6 @@
         </table>
     </div>
 
-    <div id="loading" style="text-align: center;">
-      <i class="fa fa-circle-o-notch fa-spin" style="font-size:60px; color:#32A0B2;"></i>
-    </div>
-
-    <script type="text/javascript" src="https://ytchannelembed.com/ytce-frgallery.js"></script><div style="width:100%;max-width:1045px;" class="ytce" data-user="CuriousFox" data-rows="10" data-ratio="hd" data-width="250" data-margin="15" data-desc="100" data-desc_color="9E9E9E" data-title="60" data-title_color="32A0B2" data-https="1" data-duration="1" data-views="1" data-likes="1" data-dislikes="0" data-fav="0" data-cols="4" ></div>
 
 </div>
 <div class="footer">
@@ -87,37 +76,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
-
-<script>
-    $(document).ready(function () {
-        $('img').on('click', function () {
-            var image = $(this).attr('src');
-            $('#myModal').on('show.bs.modal', function () {
-                $("#window").attr("src", image);
-            });
-        });
-    });
-
-</script>
-
-<script>
-    window.onload = function() {
-        var checkExist = setInterval(function() {
-            if ($('#ytce-li').length) {
-                clearInterval(checkExist);              
-            
-                var anchors = document.getElementsByTagName("a");
-                for (var i = 0; i < anchors.length; i++) {
-                    if (anchors[i].href.includes("ytchannelembed")) {
-                        anchors[i].href = "https://www.youtube.com/watch?v=" + anchors[i].href.substr(40);
-                        $('#loading').hide();
-                    }
-                }
-            }
-        }, 100); // check every 100ms
-}
-    
-</script>
 
 </body>
 </html>
