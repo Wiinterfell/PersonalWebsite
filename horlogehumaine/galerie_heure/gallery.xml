@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery 
+
+	useFlickr="false"
+	resizeOnImport="true"
+	cropToFit="false"
+	indexPageName="galerie_heure.html"
+
+>
+  <image imageURL="images/0000.jpg"
+	thumbURL="thumbs/0000.jpg"
+	linkURL="images/0000.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/0100.jpg"
+	thumbURL="thumbs/0100.jpg"
+	linkURL="images/0100.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/0200.jpg"
+	thumbURL="thumbs/0200.jpg"
+	linkURL="images/0200.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/0300.jpg"
+	thumbURL="thumbs/0300.jpg"
+	linkURL="images/0300.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/0400.jpg"
+	thumbURL="thumbs/0400.jpg"
+	linkURL="images/0400.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+   <image imageURL="images/0500.jpg"
+	thumbURL="thumbs/0500.jpg"
+	linkURL="images/0500.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/0600.jpg"
+	thumbURL="thumbs/0600.jpg"
+	linkURL="images/0600.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/0700.jpg"
+	thumbURL="thumbs/0700.jpg"
+	linkURL="images/0700.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/0800.jpg"
+	thumbURL="thumbs/0800.jpg"
+	linkURL="images/0800.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/0900.jpg"
+	thumbURL="thumbs/0900.jpg"
+	linkURL="images/0900.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/1000.jpg"
+	thumbURL="thumbs/1000.jpg"
+	linkURL="images/1000.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/1100.jpg"
+	thumbURL="thumbs/1100.jpg"
+	linkURL="images/1100.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/1200.jpg"
+	thumbURL="thumbs/1200.jpg"
+	linkURL="images/1200.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/1300.jpg"
+	thumbURL="thumbs/1300.jpg"
+	linkURL="images/1300.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/1400.jpg"
+	thumbURL="thumbs/1400.jpg"
+	linkURL="images/1400.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/1500.jpg"
+	thumbURL="thumbs/1500.jpg"
+	linkURL="images/1500.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/1600.jpg"
+	thumbURL="thumbs/1600.jpg"
+	linkURL="images/1600.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/1700.jpg"
+	thumbURL="thumbs/1700.jpg"
+	linkURL="images/1700.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/1800.jpg"
+	thumbURL="thumbs/1800.jpg"
+	linkURL="images/1800.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/1900.jpg"
+	thumbURL="thumbs/1900.jpg"
+	linkURL="images/1900.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2000.jpg"
+	thumbURL="thumbs/2000.jpg"
+	linkURL="images/2000.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2100.jpg"
+	thumbURL="thumbs/2100.jpg"
+	linkURL="images/2100.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2200.jpg"
+	thumbURL="thumbs/2200.jpg"
+	linkURL="images/2200.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2300.jpg"
+	thumbURL="thumbs/2300.jpg"
+	linkURL="images/2300.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+</simpleviewergallery>
